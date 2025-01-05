@@ -4,7 +4,7 @@
 -- disable animations
 vim.g.snacks_animate = false
 -- enable word wrap
-vim.opt.wrap = false
+vim.opt.wrap = true
 -- disable diagnostics by default
 vim.diagnostic.enable(false)
 -- disable autoformat on save

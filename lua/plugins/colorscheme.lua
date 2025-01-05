@@ -29,3 +29,4 @@ return {
     opts = { colorscheme = "monokai-pro" }
   },
 }
+
