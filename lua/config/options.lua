@@ -13,3 +13,5 @@ vim.g.autoformat = false
 -- vim.g.root_spec = { "cwd" }
 -- remove auto chr
 vim.o.autochdir = false
+-- break indents!
+vim.opt.breakindent = true
