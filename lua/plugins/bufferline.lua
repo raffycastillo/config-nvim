@@ -1,7 +1,7 @@
 return {
   {
     "bufferline.nvim",
-    enabled = false,
+    enabled = true,
     -- opts = {
     --   options = { 
     --     always_show_bufferline = true,

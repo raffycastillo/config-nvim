@@ -12,4 +12,6 @@ vim.keymap.del({ 'n', 'i', 'v' }, '<A-j>')
 -- bind new up down in visual mode
 vim.keymap.set('v', '<S-j>', ":m '>+1<CR>gv=gv", { desc = 'Move lines down', silent = true })
 vim.keymap.set('v', '<S-k>', ":m '<-2<CR>gv=gv", { desc = 'Move lines up', silent = true })
+-- sys clip yank
+vim.keymap.set({ 'n', 'v' }, '<leader>y', '"+y', { desc = 'Yank to system clipboard', silent = true });
 

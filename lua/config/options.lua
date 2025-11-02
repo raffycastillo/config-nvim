@@ -10,8 +10,10 @@ vim.diagnostic.enable(false)
 -- disable autoformat on save
 vim.g.autoformat = false
 -- -- only treat cwd as root
--- vim.g.root_spec = { "cwd" }
+vim.g.root_spec = { "cwd" }
 -- remove auto chr
 vim.o.autochdir = false
 -- break indents!
 vim.opt.breakindent = true
+-- don't yank to sys clip
+vim.opt.clipboard = ''
