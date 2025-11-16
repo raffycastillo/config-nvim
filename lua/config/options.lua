@@ -5,8 +5,8 @@
 vim.g.snacks_animate = false
 -- enable word wrap
 vim.opt.wrap = true
--- disable diagnostics by default
-vim.diagnostic.enable(false)
+-- disable spellcheck by default
+-- vim.diagnostics.enable(false)
 -- disable autoformat on save
 vim.g.autoformat = false
 -- -- only treat cwd as root
@@ -16,4 +16,4 @@ vim.o.autochdir = false
 -- break indents!
 vim.opt.breakindent = true
 -- don't yank to sys clip
-vim.opt.clipboard = ''
+vim.opt.clipboard = ""
