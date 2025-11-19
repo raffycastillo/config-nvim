@@ -5,8 +5,6 @@
 vim.g.snacks_animate = false
 -- enable word wrap
 vim.opt.wrap = true
--- disable spellcheck by default
--- vim.diagnostics.enable(false)
 -- disable autoformat on save
 vim.g.autoformat = false
 -- -- only treat cwd as root

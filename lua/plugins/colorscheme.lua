@@ -3,17 +3,13 @@ return {
   --   "catppuccin/nvim",
   --   name = 'catppuccin',
   --   opts = {
-  --     flavour = 'frappe',
-  --     -- color_overrides =  {
-  --     --   latte = {
-  --     --     base = '#dfdfdf'
-  --     --   }
-  --     -- }
+  --     flavour = 'latte',
+  --     color_overrides =  {
+  --       latte = {
+  --         base = '#dfdfdf'
+  --       }
+  --     }
   --   }
-  -- },
-  -- {
-  --   "LazyVim/LazyVim",
-  --   opts = { colorscheme = "catppuccin" }
   -- },
   {
   "loctvl842/monokai-pro.nvim",
@@ -23,8 +19,8 @@ return {
     terminal_colors = true,
     devicons = true,
     filter = "octagon"
-  }
-   },
+    }
+  },
   -- {
   --   "Shatur/neovim-ayu",
   --   lazy = true,
@@ -39,6 +35,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = { colorscheme = "monokai-pro" }
+    -- opts = { colorscheme = "catppuccin" }
     -- opts = { colorscheme = "ayu" }
   },
 }
